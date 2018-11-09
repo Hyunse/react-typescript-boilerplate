@@ -11,9 +11,11 @@ const Container = styled.div`
   margin: auto;
 `;
 
-const MainPresenter: React.SFC = () => (
-  <Container>
-    <Head title="React Typescript Boilerplate" />
-  </Container>
-);
+const MainPresenter: React.SFC = () => {
+  return (
+    <Container>
+      <Head title="React Typescript Boilerplate" />
+    </Container>
+  );
+};
 export default MainPresenter;
