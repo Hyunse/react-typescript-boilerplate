@@ -2,6 +2,14 @@ import React from 'react';
 import Head from '../../components/Head';
 import styled from '../../typed-components';
 
+const MainPresenter: React.SFC = () => {
+  return (
+    <Container>
+      <Head title="React Typescript Boilerplate" />
+    </Container>
+  );
+};
+
 const Container = styled.div`
   position: relative;
   max-width: 1135px;
@@ -11,11 +19,4 @@ const Container = styled.div`
   margin: auto;
 `;
 
-const MainPresenter: React.SFC = () => {
-  return (
-    <Container>
-      <Head title="React Typescript Boilerplate" />
-    </Container>
-  );
-};
 export default MainPresenter;
